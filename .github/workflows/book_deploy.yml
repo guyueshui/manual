@@ -38,7 +38,7 @@ jobs:
       - name: Deploy to main
         uses: peaceiris/actions-gh-pages@v2
         env:
-          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+          PERSONAL_TOKEN: ${{ secrets.BOOK_DEPLOY }}
           PUBLISH_BRANCH: main
           PUBLISH_DIR: ./_book
 
